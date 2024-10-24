@@ -1,6 +1,7 @@
 docker-compose.override.yml
 secondbrain/
 .env
+.env.*
 env.sh
 .streamlit/secrets.toml
 **/*.pyc
@@ -42,6 +43,9 @@ yarn-error.log*
 
 # local env files
 .env*.local
+
+# venv
+.venv
 
 # vercel
 .vercel
